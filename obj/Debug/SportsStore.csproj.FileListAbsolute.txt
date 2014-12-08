@@ -1,0 +1,10 @@
+C:\Users\lawrence.keru\Documents\Visual Studio 2012\Projects\Applications\SportsStore\SportsStore\bin\SportsStore.dll
+C:\Users\lawrence.keru\Documents\Visual Studio 2012\Projects\Applications\SportsStore\SportsStore\bin\SportsStore.pdb
+C:\Users\lawrence.keru\Documents\Visual Studio 2012\Projects\Applications\SportsStore\SportsStore\bin\EntityFramework.dll
+C:\Users\lawrence.keru\Documents\Visual Studio 2012\Projects\Applications\SportsStore\SportsStore\bin\EntityFramework.SqlServer.dll
+C:\Users\lawrence.keru\Documents\Visual Studio 2012\Projects\Applications\SportsStore\SportsStore\bin\EntityFramework.xml
+C:\Users\lawrence.keru\Documents\Visual Studio 2012\Projects\Applications\SportsStore\SportsStore\bin\EntityFramework.SqlServer.xml
+C:\Users\lawrence.keru\Documents\Visual Studio 2012\Projects\Applications\SportsStore\SportsStore\obj\Debug\SportsStore.dll
+C:\Users\lawrence.keru\Documents\Visual Studio 2012\Projects\Applications\SportsStore\SportsStore\obj\Debug\SportsStore.pdb
+C:\Users\lawrence.keru\Documents\Visual Studio 2012\Projects\Applications\SportsStore\SportsStore\bin\SportsStore.dll.CodeAnalysisLog.xml
+C:\Users\lawrence.keru\Documents\Visual Studio 2012\Projects\Applications\SportsStore\SportsStore\bin\SportsStore.dll.lastcodeanalysissucceeded

@@ -1,0 +1,26 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SportStore.master.cs" Inherits="SportsStore.Pages.SportStore" %>
+<%@ Register TagPrefix="SS" TagName="CatLinks" Src="~/Controls/CategoryList.ascx" %> <!--CategoryList.acsx -->
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>SportsStore</title>
+    <link rel="stylesheet" href="../Content/Styles.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="header">
+            <div class="title">SPORTS STORE</div>
+        </div>
+        <div id="categories">
+            <SS:CatLinks runat="server" />
+        </div>
+    <div>
+        <asp:ContentPlaceHolder ID="bodyContent" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
