@@ -13,7 +13,20 @@ namespace SportsStore.Pages
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (IsPostBack)
+            { 
+                Repository repo = new Repository();
+                int productId;
+                if (int.TryParse(Request.Form["remove"], out productId))
+                {
+                    Product productToRemove = repo.Products
+                        .Where(p => p.ProductID == productId).FirstOrDefault();
+                    if (productToRemove != null)
+                    {
+                        SessionHelper.GetCart(Session).RemoveLine(productToRemove);
+                    }
+                }
+            }
         }
 
         public IEnumerable<CartLine> GetCartLines()
